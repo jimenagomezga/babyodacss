@@ -1,0 +1,310 @@
+@import url(//db.onlinewebfonts.com/c/9ccc937e37db90da1030ca2aece5a69c?family=Mandalore);
+@import url(//db.onlinewebfonts.com/c/3752a0f4c3f80b95df1301564a50b30e?family=Nexa+Black);
+@import url(//db.onlinewebfonts.com/c/37d8aff129ecd7d3fc495b7239f834db?family=Bitstream+Vera+Sans+Mono);
+
+@font-face {
+  font-family: "Mandalore";
+  src: url("//db.onlinewebfonts.com/t/9ccc937e37db90da1030ca2aece5a69c.eot");
+  src: url("//db.onlinewebfonts.com/t/9ccc937e37db90da1030ca2aece5a69c.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/9ccc937e37db90da1030ca2aece5a69c.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/9ccc937e37db90da1030ca2aece5a69c.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/9ccc937e37db90da1030ca2aece5a69c.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/9ccc937e37db90da1030ca2aece5a69c.svg#Mandalore")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Nexa Black";
+  src: url("//db.onlinewebfonts.com/t/3752a0f4c3f80b95df1301564a50b30e.eot");
+  src: url("//db.onlinewebfonts.com/t/3752a0f4c3f80b95df1301564a50b30e.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/3752a0f4c3f80b95df1301564a50b30e.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/3752a0f4c3f80b95df1301564a50b30e.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/3752a0f4c3f80b95df1301564a50b30e.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/3752a0f4c3f80b95df1301564a50b30e.svg#Nexa Black")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Bitstream Vera Sans Mono";
+  src: url("//db.onlinewebfonts.com/t/37d8aff129ecd7d3fc495b7239f834db.eot");
+  src: url("//db.onlinewebfonts.com/t/37d8aff129ecd7d3fc495b7239f834db.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/37d8aff129ecd7d3fc495b7239f834db.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/37d8aff129ecd7d3fc495b7239f834db.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/37d8aff129ecd7d3fc495b7239f834db.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/37d8aff129ecd7d3fc495b7239f834db.svg#Bitstream Vera Sans Mono")
+      format("svg");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(231, 206, 167);
+}
+
+.contenedor1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.title1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+hr {
+  width: 448px;
+  height: 4px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: "Nexa Black";
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  margin: 10px 10px 0 10px;
+}
+
+h1 {
+  font-family: "Mandalore";
+  text-align: center;
+  color: rgb(3, 61, 39);
+  font-size: 77px;
+  letter-spacing: 25px;
+}
+
+h2 {
+  font-family: "Bitstream Vera Sans Mono";
+  text-align: center;
+  font-size: 37px;
+  margin-top: 15px;
+}
+
+.babyYoda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.headComplete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 350px;
+  height: 223px;
+  border-radius: 50%;
+  background: #9dca84;
+}
+
+.hairs1 {
+  width: 1.5px;
+  height: 60px;
+  margin-top: 1px;
+  border: 2px solid #4b6d36;
+  border-radius: 10px;
+  transform: rotate(-27deg);
+}
+
+.hairs2 {
+  width: 2px;
+  height: 60px;
+  margin-left: 38px;
+  border: 2px solid #4b6d36;
+  border-radius: 10px;
+}
+
+.hairs3 {
+  width: 1.5px;
+  height: 60px;
+  margin: 1px 0 0 34px;
+  border: 2px solid #4b6d36;
+  border-radius: 10px;
+  transform: rotate(27deg);
+}
+
+.eyes {
+  width: 243px;
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 45px 0 54px;
+}
+
+.eye {
+  width: 85px;
+  height: 74px;
+  border-radius: 50%;
+  background: #392f2a;
+  animation: 2s linear infinite alternate;
+}
+
+.shineEye1 {
+  width: 17px;
+  height: 17px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin: 19px 0 0 11px;
+}
+
+.shineEye2 {
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin: 3px 0 0 27px;
+}
+
+.noise {
+  width: 20px;
+  height: 33px;
+  border-radius: 50%;
+  border-top: 5px solid #4b6d36;
+  margin-top: 53px;
+}
+
+.ears {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ear1 {
+  width: 282px;
+  height: 132px;
+  background: #9dca84;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  margin: 47px -36px 0 0;
+  border-radius: 50% 0 0 0;
+}
+
+.earInside1 {
+  width: 217px;
+  height: 90px;
+  background: #f4a090;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  margin: 13px -36px 0 54px;
+  border-radius: 50% 10% 10% 10%;
+}
+
+.ear2 {
+  transform: scaleX(-1);
+  width: 282px;
+  height: 132px;
+  background: #9dca84;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  margin: 47px -36px 0 -35px;
+  border-radius: 50% 0 0 0;
+}
+
+.earInside2 {
+  width: 217px;
+  height: 90px;
+  background: #f4a090;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  margin: 13px -36px 0 54px;
+  border-radius: 50% 10% 10% 10%;
+}
+
+.smile {
+  width: 45px;
+  height: 100px;
+  border-radius: 18px;
+  border-bottom: 5px solid #4b6d36;
+  margin: -92px 0 0 10px;
+}
+
+.bodyComplete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jacket {
+  width: 320px;
+  height: 76px;
+  background: #a2ab7d;
+  margin: -14px 0 0 20px;
+  border: 5px solid #939d67;
+  border-radius: 20px;
+}
+
+.bodyContenedor {
+  display: flex;
+}
+
+.body {
+  width: 363px;
+  height: 338px;
+  clip-path: polygon(24% 0%, 83% 0%, 100% 100%, 0% 100%);
+  background: #a2ab7d;
+  border: 5px solid #939d67;
+  border-radius: 20px;
+}
+
+.linebody {
+  width: 1px;
+  height: 246px;
+  border: 5px solid #939d67;
+  margin-left: 190px;
+  border-radius: 20px;
+}
+
+.hands {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 26px;
+}
+
+.hand2 {
+  width: 198px;
+  height: 198px;
+  clip-path: polygon(0 1%, 0 -37%, 38% 77%, 0% 100%);
+  z-index: 2;
+  margin-left: -87px;
+  background: #939d67;
+  border-radius: 10px;
+}
+
+.hand1 {
+  transform: scaleX(-1);
+  width: 198px;
+  height: 198px;
+  clip-path: polygon(0 1%, 0 -37%, 38% 77%, 0% 100%);
+  z-index: 2;
+  margin-right: -95px;
+  background: #939d67;
+  border-radius: 10px;
+}
+
+h2.firmaContenedor {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Bitstream Vera Sans Mono";
+  font-size: 20px;
+}
